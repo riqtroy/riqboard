@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="riq0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riq9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riq9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqAltLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqAltLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqAltRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqAltRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_2_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_2_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApm_3_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApm_3_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqApostrophe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqApostrophe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqBackslash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqBackslash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqBackspace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqBackspace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqboardLayout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqboardLayout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqboardlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqboardlogo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqBracketLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqBracketLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqBracketRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqBracketRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqCapsLock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqCapsLock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqComma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqComma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqControlLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqControlLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqControlRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqControlRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqDot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqDot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqEnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqEnd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqEqual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqEqual.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqEscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqEscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqF9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqF9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqHome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqInsert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqInsert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqMinus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqMinus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLock9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLock9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLockAsterisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLockAsterisk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLockDot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLockDot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLockEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLockEnter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLockMinus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLockMinus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLockPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLockPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqNumLockSlash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqNumLockSlash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqOemtilde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqOemtilde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqPageDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqPageDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqPageUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqPageUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqPause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqPause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqPrintScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqPrintScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqScrollLock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqScrollLock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqSemicolon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqSemicolon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqShiftLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqShiftLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqShiftRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqShiftRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqSlash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqSlash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqSpace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqSpace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqWindowsLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqWindowsLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqWindowsRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqWindowsRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riqZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steelfish_rg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steelfish_rg.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="riqboardUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riqboardUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

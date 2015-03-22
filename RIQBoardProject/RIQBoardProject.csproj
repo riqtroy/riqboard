@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB5A6F73-0CBF-4574-B2F8-16EA7BE904CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RIQBoard</RootNamespace>
+    <AssemblyName>RIQBoard</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>riqboardlogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RIQBoardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RIQBoardForm.Designer.cs">
+      <DependentUpon>RIQBoardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RIQBoardHook.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RIQBoardForm.resx">
+      <DependentUpon>RIQBoardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Resources\steelfish_rg.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riqboardlogo.ico" />
+    <None Include="Resources\riqboardLayout.png" />
+    <None Include="Resources\riqboard.png" />
+    <None Include="Resources\riqboardUpdate.png" />
+    <Content Include="riqboardlogo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riqZ.png" />
+    <None Include="Resources\riqY.png" />
+    <None Include="Resources\riqX.png" />
+    <None Include="Resources\riqWindowsRight.png" />
+    <None Include="Resources\riqWindowsLeft.png" />
+    <None Include="Resources\riqW.png" />
+    <None Include="Resources\riqV.png" />
+    <None Include="Resources\riqUp.png" />
+    <None Include="Resources\riqU.png" />
+    <None Include="Resources\riqTab.png" />
+    <None Include="Resources\riqT.png" />
+    <None Include="Resources\riqSpace.png" />
+    <None Include="Resources\riqSlash.png" />
+    <None Include="Resources\riqShiftRight.png" />
+    <None Include="Resources\riqShiftLeft.png" />
+    <None Include="Resources\riqSemicolon.png" />
+    <None Include="Resources\riqScrollLock.png" />
+    <None Include="Resources\riqS.png" />
+    <None Include="Resources\riqRight.png" />
+    <None Include="Resources\riqR.png" />
+    <None Include="Resources\riqQ.png" />
+    <None Include="Resources\riqPrintScreen.png" />
+    <None Include="Resources\riqPause.png" />
+    <None Include="Resources\riqPageUp.png" />
+    <None Include="Resources\riqPageDown.png" />
+    <None Include="Resources\riqP.png" />
+    <None Include="Resources\riqOemtilde.png" />
+    <None Include="Resources\riqO.png" />
+    <None Include="Resources\riqNumLockSlash.png" />
+    <None Include="Resources\riqNumLockPlus.png" />
+    <None Include="Resources\riqNumLockMinus.png" />
+    <None Include="Resources\riqNumLockEnter.png" />
+    <None Include="Resources\riqNumLockDot.png" />
+    <None Include="Resources\riqNumLockAsterisk.png" />
+    <None Include="Resources\riqNumLock9.png" />
+    <None Include="Resources\riqNumLock8.png" />
+    <None Include="Resources\riqNumLock7.png" />
+    <None Include="Resources\riqNumLock6.png" />
+    <None Include="Resources\riqNumLock5.png" />
+    <None Include="Resources\riqNumLock4.png" />
+    <None Include="Resources\riqNumLock3.png" />
+    <None Include="Resources\riqNumLock2.png" />
+    <None Include="Resources\riqNumLock1.png" />
+    <None Include="Resources\riqNumLock0.png" />
+    <None Include="Resources\riqNumLock.png" />
+    <None Include="Resources\riqN.png" />
+    <None Include="Resources\riqMinus.png" />
+    <None Include="Resources\riqM.png" />
+    <None Include="Resources\riqList.png" />
+    <None Include="Resources\riqLeft.png" />
+    <None Include="Resources\riqL.png" />
+    <None Include="Resources\riqK.png" />
+    <None Include="Resources\riqJ.png" />
+    <None Include="Resources\riqInsert.png" />
+    <None Include="Resources\riqI.png" />
+    <None Include="Resources\riqHome.png" />
+    <None Include="Resources\riqH.png" />
+    <None Include="Resources\riqG.png" />
+    <None Include="Resources\riqF12.png" />
+    <None Include="Resources\riqF11.png" />
+    <None Include="Resources\riqF10.png" />
+    <None Include="Resources\riqF9.png" />
+    <None Include="Resources\riqF8.png" />
+    <None Include="Resources\riqF7.png" />
+    <None Include="Resources\riqF6.png" />
+    <None Include="Resources\riqF5.png" />
+    <None Include="Resources\riqF4.png" />
+    <None Include="Resources\riqF3.png" />
+    <None Include="Resources\riqF2.png" />
+    <None Include="Resources\riqF1.png" />
+    <None Include="Resources\riqF.png" />
+    <None Include="Resources\riqEscape.png" />
+    <None Include="Resources\riqEqual.png" />
+    <None Include="Resources\riqEnter.png" />
+    <None Include="Resources\riqEnd.png" />
+    <None Include="Resources\riqE.png" />
+    <None Include="Resources\riqDown.png" />
+    <None Include="Resources\riqDot.png" />
+    <None Include="Resources\riqDelete.png" />
+    <None Include="Resources\riqD.png" />
+    <None Include="Resources\riqControlRight.png" />
+    <None Include="Resources\riqControlLeft.png" />
+    <None Include="Resources\riqComma.png" />
+    <None Include="Resources\riqCapsLock.png" />
+    <None Include="Resources\riqC.png" />
+    <None Include="Resources\riqBracketRight.png" />
+    <None Include="Resources\riqBracketLeft.png" />
+    <None Include="Resources\riqBackspace.png" />
+    <None Include="Resources\riqBackslash.png" />
+    <None Include="Resources\riqB.png" />
+    <None Include="Resources\riqApostrophe.png" />
+    <None Include="Resources\riqApm_3_9.png" />
+    <None Include="Resources\riqApm_3_8.png" />
+    <None Include="Resources\riqApm_3_7.png" />
+    <None Include="Resources\riqApm_3_6.png" />
+    <None Include="Resources\riqApm_3_5.png" />
+    <None Include="Resources\riqApm_3_4.png" />
+    <None Include="Resources\riqApm_3_3.png" />
+    <None Include="Resources\riqApm_3_2.png" />
+    <None Include="Resources\riqApm_3_1.png" />
+    <None Include="Resources\riqApm_3_0.png" />
+    <None Include="Resources\riqApm_2_9.png" />
+    <None Include="Resources\riqApm_2_8.png" />
+    <None Include="Resources\riqApm_2_7.png" />
+    <None Include="Resources\riqApm_2_6.png" />
+    <None Include="Resources\riqApm_2_5.png" />
+    <None Include="Resources\riqApm_2_4.png" />
+    <None Include="Resources\riqApm_2_3.png" />
+    <None Include="Resources\riqApm_2_2.png" />
+    <None Include="Resources\riqApm_2_1.png" />
+    <None Include="Resources\riqApm_2_0.png" />
+    <None Include="Resources\riqApm_1_9.png" />
+    <None Include="Resources\riqApm_1_8.png" />
+    <None Include="Resources\riqApm_1_7.png" />
+    <None Include="Resources\riqApm_1_6.png" />
+    <None Include="Resources\riqApm_1_5.png" />
+    <None Include="Resources\riqApm_1_4.png" />
+    <None Include="Resources\riqApm_1_3.png" />
+    <None Include="Resources\riqApm_1_2.png" />
+    <None Include="Resources\riqApm_1_1.png" />
+    <None Include="Resources\riqApm_1_0.png" />
+    <None Include="Resources\riqAltRight.png" />
+    <None Include="Resources\riqAltLeft.png" />
+    <None Include="Resources\riqA.png" />
+    <None Include="Resources\riq9.png" />
+    <None Include="Resources\riq8.png" />
+    <None Include="Resources\riq7.png" />
+    <None Include="Resources\riq6.png" />
+    <None Include="Resources\riq5.png" />
+    <None Include="Resources\riq4.png" />
+    <None Include="Resources\riq3.png" />
+    <None Include="Resources\riq2.png" />
+    <None Include="Resources\riq1.png" />
+    <None Include="Resources\riq0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
